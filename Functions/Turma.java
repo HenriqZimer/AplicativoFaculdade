@@ -2,8 +2,7 @@ package appfaculdade;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner; // Certifique-se que o Scanner está importado.
-
+import java.util.Scanner; 
 public class Turma {
     private int semestre;
     private int ano;
@@ -52,7 +51,7 @@ public class Turma {
         int semestre = scanner.nextInt();
         System.out.println("Digite o ano da turma:");
         int ano = scanner.nextInt();
-        scanner.nextLine(); // Limpa o buffer do scanner
+        scanner.nextLine(); 
 
         if (numCursos > 0) {
             System.out.println("Selecione um curso para associar à turma:");
@@ -60,7 +59,7 @@ public class Turma {
                 System.out.println((i + 1) + " - " + cursos[i].getNome());
             }
             int cursoIndex = scanner.nextInt() - 1;
-            scanner.nextLine(); // Limpa o buffer novamente
+            scanner.nextLine(); 
             if (cursoIndex >= 0 && cursoIndex < numCursos) {
                 return new Turma(semestre, ano, cursos[cursoIndex]);
             } else {
