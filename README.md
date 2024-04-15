@@ -6,4 +6,4 @@ Comando para Buildar:  /usr/bin/env C:\\Program\ Files\\Java\\jdk-22\\bin\\java.
 
 Link GitHub: https://github.com/HenriqZimer/AplicativoFaculdade
 
-Link video YouTube: 
+Link video YouTube: https://www.youtube.com/watch?v=k_NHIZQXHC4
